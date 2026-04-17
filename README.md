@@ -10,9 +10,12 @@ To study and implement data binning and data formatting using Python (Pandas lib
 # Theory
 
 * Data Binning
+  
 Data binning is a technique used to convert continuous numerical data into discrete groups or categories (bins). It reduces complexity, removes noise, and makes data easier to analyze and interpret, especially when dealing with large datasets.
 
-* Functions Used: a) pd.cut() Used to divide numerical data into intervals (bins). Converts continuous values into categorical labels. Makes comparison and analysis easier.
+* Functions Used:
+
+ a) pd.cut() Used to divide numerical data into intervals (bins). Converts continuous values into categorical labels. Makes comparison and analysis easier.
 
 Applications in experiment:
 
@@ -23,6 +26,7 @@ b) value_counts() Counts the number of values in each category. Helps in underst
 c) unique() Returns all distinct values from a column. Helps to verify whether binning or categorization is done correctly.
 
 * Data Formatting
+  
 Data formatting ensures that the dataset is clean, consistent, and easy to read, which is important before performing analysis.
 
 Functions Used:
